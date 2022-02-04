@@ -1,0 +1,83 @@
+@font-face {
+	font-family: 'OpenSans-Italic';
+      /*   src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap'); */
+    src: url('./fonts/OpenSans-Italic.ttf');
+}
+@font-face {
+	font-family: 'OpenSans-Bold';
+     /*    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap'); */
+    src: url('./fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+	font-family: 'OpenSans-Regular';
+    /*     src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap'); */
+    src: url('./fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Source Serif 4';
+    src: url('https://fonts.gstatic.com/s/sourceserif4/v1/vEFF2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6kCXr4cXk.woff2');
+    src: url('./fonts/Source Serif 4.ttf');
+}
+
+.menu {
+	font-family: 'OpenSans-Regular';
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h1, h2 {
+	font-family: 'Source Serif 4';
+}
+
+.header {
+    font-family: 'Source Serif 4';
+}
+
+.site-menu {
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    background: rgb(114, 184, 209);
+    list-style: none;
+    padding: 5px;
+    /* border-style: outset;
+    border-width: thick; */
+	}
+
+.menu-link {
+    font-family: 'Source Serif 4';
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    width: max-content;
+	text-decoration: none;
+}
+
+.footer {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	align-self: ;
+	/* border-style: outset;
+    border-width: thick; */
+	background-color: rgb(239, 228, 199);
+}
+
+.contacts {
+	font-family: 'OpenSans-Italic';
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-link {
+	margin: 7px;
+	font-size: 15px;
+}
+
+#contacts {
+	margin-right: 20px;
+}
