@@ -1,23 +1,23 @@
 @font-face {
 	font-family: 'OpenSans-Italic';
       /*   src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap'); */
-    src: url('./fonts/OpenSans-Italic.ttf');
+    src: url('../fonts/OpenSans-Italic.ttf');
 }
 @font-face {
 	font-family: 'OpenSans-Bold';
      /*    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap'); */
-    src: url('./fonts/OpenSans-Bold.ttf');
+    src: url('../fonts/OpenSans-Bold.ttf');
 }
 @font-face {
 	font-family: 'OpenSans-Regular';
     /*     src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap'); */
-    src: url('./fonts/OpenSans-Regular.ttf');
+    src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 @font-face {
 	font-family: 'Source Serif 4';
     src: url('https://fonts.gstatic.com/s/sourceserif4/v1/vEFF2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6kCXr4cXk.woff2');
-    src: url('./fonts/Source Serif 4.ttf');
+    src: url('../fonts/Source Serif 4.ttf');
 }
 
 .menu {
