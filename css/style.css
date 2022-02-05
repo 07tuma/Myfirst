@@ -20,6 +20,18 @@
     src: url('../fonts/Source Serif 4.ttf');
 }
 
+  /* .img-hover {
+    background: url("../images/icon-it.png") no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+  .img-hover:hover {
+    background: url("../images/icon-it2.png") no-repeat;
+    height: 50px;
+    width: 50px;
+  } */
+
 .menu {
 	font-family: 'OpenSans-Regular';
 	margin-left: 5%;
@@ -79,5 +91,5 @@ h1, h2 {
 }
 
 #contacts {
-	margin-right: 20px;
+	margin-right: 50px;
 }
