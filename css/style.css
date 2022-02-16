@@ -91,6 +91,26 @@ h1, h2 {
 	margin-right: 50px;
 }
 
+.project2 {
+  color: rgb(226, 159, 15);
+}
+
+.project2-link {
+  color: rgb(226, 159, 15);
+  text-decoration: none;
+    text-transform: uppercase;
+}
+
+.project2-link:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: 1px rgb(226, 159, 15) solid;
+ }
+
+
+
+
+
+
 /* div.menu-bar ul ul {
     display: none;
   }
