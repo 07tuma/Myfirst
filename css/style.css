@@ -45,7 +45,6 @@ h1, h2 {
     align-items: center;
     background: rgb(114, 184, 209, 0.3);
     list-style: none;
-    padding: 5px;
     flex-wrap: wrap;
 }
 
@@ -62,15 +61,17 @@ h1, h2 {
 .footer {
 	display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;  
 	background-color: rgb(239, 228, 199, 0.8);
-}
+  }
 
 .contacts {
 	font-family: 'OpenSans-Italic';
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;  
 }
 
 .contact-link {
@@ -101,8 +102,12 @@ h1, h2 {
 @media screen and (max-width: 760px) {
   .menu {
   background-color: rgb(95, 215, 236);
+  padding: 0 10px;
 }
 .photo {
 width: 100%;
+}
+.footer {
+  padding: 0 10px;
 }
 }
